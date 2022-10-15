@@ -1,0 +1,366 @@
+.banner{
+    height: 500px;
+    width: 100%;
+}
+.banner img{
+    height: 500px;
+    width: 100%;
+}
+.about{
+    height: 550px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.about .column1{
+    height: 400px;
+    width: 450px;
+    margin-left: 150px;
+    margin-top: 120px;
+    margin-right: 120px;
+}
+
+.column1 img{
+    height: 400px;
+    width: 450px;
+}
+.about .column2{
+    height: 400px;
+    width: 450px;
+    margin-top: 120px;
+}
+.btn-about-us{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: red;
+    color: white;
+    border: solid red 2px;
+    text-decoration-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.column2 h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21pt;
+}
+.column2 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.package{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    margin-top: 70PX;
+}
+.btn-package{
+    background-color: red;
+    color: white;
+    border: solid red 2px;
+    text-decoration-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 47%;
+}
+.package h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21pt;
+    color: white;
+    margin-left: 35%
+}
+.packeges{
+    width: 85%;
+    height: 300px;
+    margin-left: 7%;
+}
+.pack-img{
+    height: 120px;
+    width: 200px;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px; 
+    float: left;
+     
+}
+.pack-img img{
+    padding-left: 29%;
+    padding-top: 11%;
+}
+.pack-content{
+    height: 150px;
+    background-color: white;
+}
+.pack-content p{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+.pack-content h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.service{
+    height: 850px;
+    width: 100%;
+}
+.btn-service{
+    background-color: red;
+    color: white;
+    border: solid red 2px;
+    text-decoration-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 47%;
+}
+.service h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21pt;
+    color: black;
+    margin-left: 35%;
+}
+.services{
+    width: 85%;
+    height: 300px;
+    margin-left: 7%;
+}
+.serv-img{
+    height: 120px;
+    width: 270px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 55px; 
+    float: left; 
+    border-top: 2px solid black;
+     
+}
+.serv-img img{
+    padding-left: 35%;
+    height: 30%;
+    width: 30%;
+}
+.serv-content{
+    height: 150px;
+    background-color: white;
+    margin-top: 0;
+    border-bottom: 2px solid black;
+    
+}
+.serv-content p{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+.serv-content h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 0;
+}
+
+.work{
+    height: 650px;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+}
+.btn-work{
+    background-color: red;
+    color: white;
+    border: solid red 2px;
+    text-decoration-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 47%;
+}
+.work h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21pt;
+    color: black;
+    text-align: center;
+}
+.work h4{
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.works{
+    width: 85%;
+    height: 450px;
+    margin-left: 7%;
+}
+.work-img{
+    height: 200px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-right: 120px; 
+    float: left; 
+    border-style: dashed;
+    border-color: gray;
+    border-radius: 10px;
+    position: relative;
+     
+}
+.work-img img{
+    margin-top: 25%;
+    margin-left: 10%;
+    padding-bottom: 20%;
+}
+.work-content{
+    height: 150px;
+    margin-top: 0;
+    
+}
+.work-content p{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+.work-content h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 0;
+}
+
+.count1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(240, 95, 95);
+    border: none;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 25px;
+}
+.count1 p{
+    font-size: 18pt;
+    color: white;
+    font-style: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+.count2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(240, 95, 95);
+    border: none;
+    position: absolute;
+    margin-left: 585px;
+    margin-top: 22px;
+}
+.count2 p{
+    font-size: 18pt;
+    color: white;
+    font-style: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+.count3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(240, 95, 95);
+    border: none;
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 22px;
+}
+.count3 p{
+    font-size: 18pt;
+    color: white;
+    font-style: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.testimonial{
+    height: 650px;
+    width: 100%;
+    background-color: white;
+}
+.btn-test{
+    background-color: red;
+    color: white;
+    border: solid red 2px;
+    text-decoration-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 47%;
+}
+.testimonial h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21pt;
+    color: black;
+    text-align: center;
+}
+.testimonials{
+    width: 85%;
+    height: 300px;
+    margin-left: 7%;
+}
+.test-img{
+    height: 120px;
+    width: 450px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 55px; 
+    float: left; 
+     
+}
+.test-img img{
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+    margin-left: 150px;
+}
+.test-content{
+    height: 150px;
+    background-color: white;
+    margin-top: 0;
+    
+}
+.test-content p{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+.serv-content h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 0;
+}
